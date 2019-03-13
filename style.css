@@ -1,0 +1,52 @@
+html, body {
+    background-color: #212F3D;
+    font-size: 35px;
+    width: 85%;
+    margin: auto;
+    height: auto;
+}
+
+button, input {
+    cursor: pointer;
+    display: absolute;
+    width: auto;
+    height: auto;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+hr {
+    margin: auto;
+    width: auto;
+    border: 1px solid #B03A2E;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+#serverMess {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    margin: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 50%;
+    height: auto;
+    background-color: #FFF388;
+}
+
+#viewList {
+    margin: 50px;
+}
+
+#apiReq {
+    margin: 10px;
+}
+
+#main {
+    margin: 50px;
+}
