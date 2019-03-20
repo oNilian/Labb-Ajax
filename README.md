@@ -1,2 +1,0 @@
-# Labb-Ajax
-Ajaxanrop-Labb
