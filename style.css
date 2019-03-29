@@ -1,0 +1,71 @@
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css);
+.commonRules {
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 20px;
+}
+.groupAnswer {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 1fr;
+  margin: 40px 20px;
+}
+.svg {
+  text-align: left;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  width: 200px;
+  height: 200px;
+  margin: 20px 20px;
+}
+.serverMessage {
+  padding: 20px 20px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-auto-flow: dense;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: #E8CE8E;
+  border-radius: 4px;
+  margin: 20px 20px;
+  list-style-type: square;
+}
+div {
+  text-align: center;
+}
+body {
+  background-color: #00675a;
+  text-align: center;
+  font-size: 16px;
+}
+hr {
+  width: 75%;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+button {
+  background-color: #E8CE8E;
+  border-radius: 50px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #cd9e2a;
+}
+#bookListWrapper {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  display: grid;
+  margin: 20px 20px;
+  text-align: center;
+}
+#bookList {
+  background-color: #d2e39c;
+  border-radius: 25px 25px;
+  list-style-type: none;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
